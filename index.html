@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+    <style>
+
+       
+
+        .head{
+               background-color:aliceblue;
+               height:35px;
+               width:100%;
+               display:flex;
+            
+              }
+        .in1{
+               background-color: blue;
+               height:30px;
+               width:300px;
+               border-radius:10px;
+               margin:2.4px;
+               display: flex;
+            }
+
+        .in2{
+              background-color:beige;
+              height:30px;
+              width:300px;
+              border-radius:10px;
+              margin:2.4px;
+              display: flex;
+        }
+
+         .logo1 img{
+                    height:20px;
+                    width:20px;
+                    margin:5px;
+                    margin-left:100px;
+                }
+        .name a{
+             
+                    color: white;
+                    text-decoration: none;
+                     font-size:9px;
+                 }
+
+        .logo2 img{
+                      height:22px;
+                       width:25px;
+                       margin:5px;
+                       margin-left:110px;
+        }
+
+        .name1 a{
+                     color: black;
+                     text-decoration: none;
+                      font-size:10px;
+                 }
+
+        .search{
+                 height:25px;
+                 width:100%;
+                 border: 0.5px black solid;
+                 margin-top:2px;
+                 display: flex;
+                 border-radius:3px;
+                
+                 
+        }
+
+        .search-img img{
+                         height:15px;
+                         width: 15px;
+                         margin:2px;
+        }
+        
+
+        .mike-img img{
+                        height:15px;
+                        width:30px;
+                        
+                        margin-left:423px;
+        }
+
+        .camera-img img{
+                          height:15px;
+                          width:30px;
+                          
+                        }
+
+        .search-name h1{
+                            font-size:10px;
+                            margin:4px; 
+                            margin-left:8px;
+                            
+                        } 
+
+        .carousel-inner{
+                          margin-top:6px;
+                          border:solid;
+                          height:200px;
+                          
+        }
+
+        .carousel-inner img{
+                              height:200px;
+        }
+
+        .offer-img img{
+                         height:120px;
+                         width: 120px;
+                         margin:1.4px 12px;
+                         border:black solid;
+                        border-radius:50%;
+        }
+
+        .brand-img img{
+                         height:60px;
+                         width: 60px;
+                        margin:80px 0px 70px  80px;
+                        border:black solid;
+                         border-radius:50%;
+        }
+
+        .apple-img img{
+                          height:120px;
+                           width:120px;
+                            margin:40px 0px 68px 20px;
+                           border:black solid;
+                           border-radius:5px;
+                            
+        }
+
+        .apple-img img:hover{
+                         transform: scale(1.3);
+        }
+
+        .samsung-img img{ 
+                          height:120px;
+                          width: 120px;
+                           margin:40px 0px 68px 20px;
+                           border:black solid;
+                           border-radius:5px;
+        }
+
+        .samsung-img img:hover{
+                                  transform: scale(1.3);
+        }
+
+        .oneplus-img img{
+                               height:120px;
+                               width: 120px;
+                               margin:40px 0px 68px 20px;
+                               border:black solid;
+                               border-radius:5px;
+        }
+
+        .oneplus-img img:hover{
+                                transform: scale(1.3);
+        }
+
+        .realme-img img{
+                            height:120px;
+                            width:120px;
+                            margin:40px 0px 68px 20px ;
+                            border: black solid;
+                            border-radius:5px;
+        }
+
+        .realme-img img:hover{
+                                transform: scale(1.3);
+        }
+
+        .laptop-img img{
+                            height:120px;
+                             width:120px;
+                             margin:40px 0px 68px 20px;
+                             border: black solid;
+                              border-radius:5px;
+        }
+
+        .laptop-img img:hover{
+                               transform: scale(1.3);
+        }
+
+        .shoes-img img {
+                          height:120px;
+                           width:120px;
+                           margin:40px 0px 68px 20px;
+                            border: black solid;
+                           border-radius:5px;
+                          
+        }
+
+        .shoes-img img:hover{
+                               transform: scale(1.3);
+        }
+
+        .bar{
+               border:1px gray solid;
+               background-color:white;
+               height:30px;
+               width:100%;
+               margin:100px 0px 0px 0px;
+               position: fixed;
+               bottom:0;
+              
+        }
+
+        .bar-logo img{
+                       height:20px;
+                       width: 20px;
+                       margin-top:0.5px;
+                       margin-left:90px;
+                    }
+
+        .carousel-inner{
+                         height:200px;
+                         margin-top:5px;
+                         margin-bottom:20px;
+        }
+
+        .carousel-inner img{
+                              height:200px;
+                              width:50px;
+        }
+        
+        .gros-img img{
+                             height:120px;
+                             width:120px;
+                              margin:36px 0px 68px 20px;
+                             border: black solid;
+                             border-radius:50%;
+                             
+        }
+
+      .atta-img img{
+                             height:120px;
+                             width:120px;
+                              margin:40px 0px 68px 20px;
+                             border: black solid;
+                             border-radius:5px;
+                             
+      }
+
+      .atta-img img:hover{
+                           transform: scale(1.3);
+      }
+
+      .oil-img img{
+                           height:120px;
+                           width:120px;
+                            margin:40px 0px 68px 20px;
+                            border: black solid;
+                            border-radius:5px;
+                  }
+
+      .oil-img img:hover{
+                           transform: scale(1.3);
+      }
+
+      .deter-img img{
+                           height:120px;
+                            width:120px;
+                           margin:40px 0px 68px 20px;
+                           border: black solid;
+                           border-radius:5px;
+                   }
+
+      .deter-img img:hover{
+                             transform: scale(1.3);
+                           
+      }
+
+      h2{
+           font-size:15px;
+           color:slateblue;
+           text-shadow:2px 4px 6px greenyellow;
+           display:inline-block;
+       }
+
+      h2:hover{
+                 font-size: 30px;
+                 color:teal;
+                 text-shadow:3px 6px 9px fuchsia;
+                 text-decoration: underline;
+              }
+      
+
+    </style>
+</head>
+<body>
+    <div class="head" id="thirteen">
+            <div class="in1">
+                <div class="logo1">
+                <img src="images1.png" alt="">
+                </div>
+
+                <div class="name">
+                    <a href="#one"><b>Flipcart</b></a>
+                </div>
+
+            </div>
+
+
+     <!-- search bar starts -->
+            <div class="in2">
+              <div class="logo2">
+                    <img src="image2.png" alt="">
+              </div>
+
+               <div class="name1">
+                     <a href="#nine"><b>Grocery</b></a>
+               </div>
+            </div>
+                       <!-- search bar ends -->
+    </div>
+
+                           <!-- search item starts -->
+    <div class="search">
+             <div class="search-img">
+                    <img src="image3.png" alt="">
+             </div>
+             <div class="search-name">
+                    <h1>Search for products</h1>
+                    
+             </div>
+             <div class="mike-img">
+                     <img src="image4.jpg" alt="">
+                     
+             </div>
+             <div class="camera-img">
+                        <img src="image5.png" alt="">
+             </div>
+
+    </div>
+           <!-- search item ends -->
+
+           <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="image6.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="image7.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="image8.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+<hr id="one">
+<div class="offers">
+           <div class="offer-img">
+               <a href=""><img src="image9.jpg" alt=""></a>
+               <a href="#two"><img src="image10.jpg" alt=""></a>
+               <a href="#seven"><img src="image11.jpg" alt=""></a>
+               <a href=""><img src="image12.jpg" alt=""></a>
+               <a href=""><img src="image13.jpg" alt=""></a>
+               <a href=""><img src="image14.jpg" alt=""></a>
+               <a href="#eight"><img src="image15.jpg" alt=""></a>
+               <a href=""><img src="image16.jpeg" alt=""></a>
+           </div>
+</div>
+
+<hr id="two">
+<div class="brand">
+  <h2>Brand</h2>
+       <div class="brand-img">
+                <a href="#three"><img src="image17.png" alt=""></a>
+                <a href="#four"><img src="image18.png" alt=""></a>
+                <a href="#five"><img src="image19.png" alt=""></a>
+                <a href="#six"><img src="image20.png" alt=""></a>
+       </div>
+</div>
+
+<hr id="three">
+<div class="apple">
+        <h2>iPhone</h2>
+         <div class="apple-img">
+                <img src="image21.jpg" alt="">
+                <img src="image22.jpg" alt="">
+                <img src="image23.jpg" alt="">
+                <img src="image24.jpg" alt="">
+         </div>
+</div>
+
+<hr id="four">
+<div class="samsung">
+  <h2>Samsung</h2>
+   <div class="samsung-img">
+          <img src="sam1.jpg" alt="">
+          <img src="sam2.jpg" alt="">
+          <img src="sam3.jpg" alt="">
+          <img src="sam4.jpg" alt="">
+   </div>
+</div>
+
+<hr id="five">
+<div class="oneplus">
+          <h2>oneplus</h2>
+    <div class="oneplus-img">
+           <img src="one1.jpg" alt="">
+           <img src="one2.jpg" alt="">
+           <img src="one3.jpg" alt="">
+           <img src="one4.jpg" alt="">
+    </div>
+</div>
+
+<hr id="six">
+<div class="realme">
+        <h2>realme</h2>
+      <div class="realme-img">
+               <img src="real1.jpg" alt="">
+               <img src="real2.jpeg" alt="">            
+               <img src="real3.png" alt="">
+               <img src="real4.png" alt="">
+      </div>
+</div>
+
+<hr id="seven">
+<div class="laptop">
+     <h2>Laptop</h2>
+  <div class="laptop-img">
+              <img src="lap1.jpg" alt="">
+              <img src="lap2.jpg" alt="">
+              <img src="lap3.jpg" alt="">
+              <img src="lap4.jpg" alt="">
+   </div>
+</div>
+
+<hr id="eight">
+<div class="shoes"> 
+           <h2>Shoes</h2>
+       <div class="shoes-img">
+               <img src="puma1.jpg" alt="">
+               <img src="puma2.jpg" alt="">
+               <img src="puma3.jpg" alt="">
+               <img src="puma4.jpg" alt="">
+
+       </div>
+</div>
+
+<!-- groceries -->
+
+<hr id="fourteen">
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500">
+              <h2>Order and get Grocery to your door step </h2>
+       <div class="carousel-inner">
+         <div class="carousel-item active">
+           <img src="gros1.jpg" class="d-block w-100" alt="...">
+         </div>
+         <div class="carousel-item">
+           <img src="gros2.jpg" class="d-block w-100" alt="...">
+         </div>
+         <div class="carousel-item">
+           <img src="gros3.jpg" class="d-block w-100" alt="...">
+         </div>
+       </div>
+       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Previous</span>
+       </button>
+       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Next</span>
+       </button>
+     </div>
+
+     <!-- gros starts -->
+
+  <hr id="nine">
+     <div class="Grocery">
+                         <h2>Grocery</h2>
+             <div class="gros-img">
+                       <a href="#ten"><img src="atta.jpg" alt=""></a>
+                       <a href="#eleven"><img src="oil.jpg" alt=""></a>
+                       <a href="#twevel"><img src="deter.jpg" alt=""></a>
+                       <a href=""><img src="vegitable.jpg" alt=""></a>
+             </div>
+     </div>
+
+     <hr id="ten">
+     <div class="atta">
+                        <h2>Atta</h2>
+            <div class="atta-img">
+                        <img src="atta1.jpg" alt="">
+                        <img src="atta2.jpg" alt="">
+                        <img src="atta3.jpg" alt="">
+                        <img src="atta4.jpg" alt="">
+            </div>
+
+     </div>
+
+     <hr id="eleven">
+     <div class="oil">
+                       <h2>Oil</h2>
+            <div class="oil-img">
+                      <img src="oil1.jpg" alt="">
+                      <img src="oil2.jpg" alt="">
+                      <img src="oil3.jpg" alt="">
+                      <img src="oil4.jpg" alt="">
+             </div>
+     </div>
+
+     <hr id="twevel">
+     <div class="deter">
+                  <h2>Detergants</h2>
+           <div class="deter-img">
+                  <img src="deter1.jpg" alt="">
+                   <img src="deter2.jpg" alt="">
+                   <img src="deter3.jpg" alt="">
+                   <img src="deter4.jpg" alt="">
+           </div>
+     </div>
+
+    
+
+<!-- groceries ends -->
+
+
+     <div class="bar">
+          <div class="bar-logo">
+                <a href="#thirteen"><img src="logo1.png" alt=""></a>  
+                <a href="#fourteen"><img src="logo2.png" alt=""></a>  
+                  <img src="logo3.png" alt="">
+                  <img src="logo4.png" alt="">
+                  <img src="logo5.png" alt="">
+           </div>
+     </div>
+
+
+
+</body>
+</html>
